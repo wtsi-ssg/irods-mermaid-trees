@@ -1,0 +1,8 @@
+root:passthru
+`-- repl:replication
+    |-- left:random
+    |   |-- leftufs1:unixfilesystem
+    |   `-- leftufs2:unixfilesystem
+    `-- right:random
+        |-- rightufs1:unixfilesystem
+        `-- rightufs2:unixfilesystem
