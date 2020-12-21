@@ -2,7 +2,7 @@
 A script for generating mermaid diagrams from ilsresc output
 
 ## rawtomermaid.py
-Takes as input a file containing the output of `ilsresc --ascii` and a file to write the mermaid diagram to. The script will construct a (mermaid)[https://github.com/mermaid-js/mermaid] diagram of the resource tree constructed in the output file.
+Takes as input a file containing the output of `ilsresc --ascii` and a file to write the mermaid diagram to. The script will construct a [mermaid](https://github.com/mermaid-js/mermaid) diagram of the resource tree constructed in the output file.
 
 ### Constructing the input file
 rawtomermaid.py assumes each layer of the tree is 4 characters deeper in than the previous layer. This is true with `ilsresc --ascii`, but not with `ilsresc` by default. Constructing an input file can be done as
