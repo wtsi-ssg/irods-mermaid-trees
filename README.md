@@ -23,3 +23,6 @@ zone=myzone
 ```
 zone="$(ienv | grep zone | cut -d' ' -f3)" ./rawtomermaid.py --input <(ilsresc --ascii) --output output-from-one-liner.md
 ```
+
+### An example output
+![Example Tree](mermaid-example.png)
